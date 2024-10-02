@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-image: url('https://i.pinimg.com/736x/eb/6f/f9/eb6ff9b034033a7782e7a0ef4ee875ce.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.story-container {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.dialogue-box {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.character-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.dialogue-text {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.next-btn {
+    background-color: #7FFFD4; /* Light color for button */
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.next-btn:hover {
+    background-color: #66CDAA;
+}
+
+.alpha { color: #7FFFD4; }
+.beta { color: #ADD8E6; }
+.gamma { color: #E6E6FA; }
+.delta { color: #FFDAB9; }
+.epsilon { color: #B0E0E6; }
+.zeta { color: #D8BFD8; }
+.eta { color: #FFFACD; }
